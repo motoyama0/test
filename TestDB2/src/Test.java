@@ -7,5 +7,9 @@ public class Test {
         dao.select("taro", "123");
         dao.selectAll();
         dao.selectByName("taro");
+        dao.selectByPassword("123");
+        dao.updataUserNameByUserName("taro", "saburo");
+        dao.insert(4, "shiro", "012");
+        dao.delete("shiro");
 	}
 }
