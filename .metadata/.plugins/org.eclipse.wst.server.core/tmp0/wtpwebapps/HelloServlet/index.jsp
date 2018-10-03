@@ -8,7 +8,7 @@
 </head>
 <body>
 <input type="button" value="HelloServlet" onClick="location.href='HelloServlet'">
-<input type="button" value="WelcomeServlet" onClick="location.href='welnome.jsp'">
+<input type="button" value="WelcomeServlet" onClick="location.href='welcome.jsp'">
 <input type="button" value="問合わせ" onClick="location.href='inquiry.jsp'">
 <input type="button" value="MySQLServlet" onClick="location.href='MySQLServlet'">
 GET 通信
@@ -17,7 +17,7 @@ GET 通信
 <input type="password" name="password">
 <input type="submit" name="送信">
 </form>
-SET 通信
+POST 通信
 <form method="post" action="TestServlet">
 <input type="text" name="username">
 <input type="password" name="password">
