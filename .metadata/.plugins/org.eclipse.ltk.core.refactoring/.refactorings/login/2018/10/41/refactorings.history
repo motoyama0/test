@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;login/WebContent/liginSuccess.jsp&apos; を &apos;loginSuccess.jsp&apos; に変更します" description="リソース &apos;liginSuccess.jsp&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/liginSuccess.jsp" name="loginSuccess.jsp" stamp="1539175385915" updateReferences="true"/>
+</session>
