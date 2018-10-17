@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.Out"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj2.dao.HelloStrutsDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj2.dao.LoginDAO"/>
 </qualifiedTypeNameHistroy>
