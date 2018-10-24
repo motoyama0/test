@@ -14,20 +14,21 @@ public class HelloStrutsAction extends ActionSupport{
      public String execute() {
     	  String ret=ERROR;
     	  HelloStrutsDAO dao=new HelloStrutsDAO();
+
     	  HelloStrutsDTOList=dao.select();
 
-          if(HellostrutsDTOList.size() > 0) {
+          if(HelloStrutsDTOList.size() > 0) {
         	  ret=SUCCESS;
           }else{
         	  ret=ERROR;
           }
           return ret;
      }
-     public String getResult() {
-    	 return result;
+     public List<HelloStrutsDTO> getHelloStrutsDTOList() {
+    	 return HelloStrutsDTOList;
      }
 
-     public void setResult(String result) {
-    	 this.result = result;
+     public void setHelloStrutsDTOList(List<HelloStrutsDTO> helloStrutsDTOList) {
+    	 HelloStrutsDTOList = helloStrutsDTOList;
      }
 }
