@@ -1,0 +1,14 @@
+127.0.0.1 - - [02/Nov/2018:21:06:07 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:06:11 +0900] "GET /template/home.jsp HTTP/1.1" 200 2238
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:06:17 +0900] "GET /template/buyItem.jsp HTTP/1.1" 200 4800
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:06:24 +0900] "GET /template/buyItem.jsp HTTP/1.1" 200 4800
+127.0.0.1 - - [02/Nov/2018:21:12:18 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:12:20 +0900] "GET /template/ HTTP/1.1" 200 2079
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:12:39 +0900] "POST /template/HomeAction.action HTTP/1.1" 200 2786
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:12:54 +0900] "POST /template/LoginAction.action HTTP/1.1" 500 7855
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:14:09 +0900] "GET /template/buyItem.jsp HTTP/1.1" 200 4800
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:17:25 +0900] "GET /template/ HTTP/1.1" 200 2079
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:17:35 +0900] "POST /template/HomeAction.action HTTP/1.1" 200 2786
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:17:38 +0900] "GET /template/UserCreateAction.action HTTP/1.1" 404 1257
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:19:11 +0900] "GET /template/UserCreateAction.action HTTP/1.1" 404 1257
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:19:25 +0900] "GET /template/buyItem.jsp HTTP/1.1" 200 4800

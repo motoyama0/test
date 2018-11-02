@@ -31,11 +31,11 @@ public class LoginDTO {
 	              this.userName = userName;
          }
 
-         public boolean getLoginFig() {
+         public boolean getLoginFlg() {
                   return loginFlg;
          }
 
-         public void setLoginFig(boolean loginFlg) {
+         public void setLoginFlg(boolean loginFlg) {
                   this.loginFlg = loginFlg;
     }
 }
