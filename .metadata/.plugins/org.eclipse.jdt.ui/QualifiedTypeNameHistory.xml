@@ -7,4 +7,6 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj4.dto.LoginDTO"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
 </qualifiedTypeNameHistroy>
