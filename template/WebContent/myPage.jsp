@@ -65,7 +65,7 @@
                        <p>MyPage</p>
                </div>
                <div>
-               <s:if test="session.message == ">
+               <s:if test="session.message ==''">
                          <h3>ご購入情報は以下になります。</h3>
                          <table>
                                 <tr>
@@ -103,9 +103,9 @@
                                  <br>
                                  <span>前画面に戻る場合は</span>
                                  <a href='<s:url action="HomeAction"/>'>ログアウト</a>
-                                 <span>をお願いします「</span>
+                                 <span>をお願いします</span>
                          </div>
-               　</div>
+                 </div>
          </div>
                  <div id="footer">
                           <div id="pr">
