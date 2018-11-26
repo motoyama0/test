@@ -3,12 +3,12 @@ package com.internousdev.ecsite.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import com.internousdev.ecsite.dto.LoginDTO;
+
 import com.internousdev.ecsite.util.DBConnector;
 
 public class LoginDAO {
          private DBConnector dbConnector = new DBConnector();
-         private Connection connection = dbConnector,getConnection();
+         private Connection connection = dbConnector.getConnection();
          private LoginDTO loginDTO = new LoginDTO();
 
          public LoginDTO getLoginUserInfo(String loginUserId, String loginPassword) {
